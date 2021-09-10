@@ -4,3 +4,4 @@
 
 * [基于套利机制自适应价格可Staking的算法稳定币](/stablecoin)
 * [按流通量进行通胀奖励的staking经济模型](/staking)
+* [mdx董事会锁仓质押回购模型以及后续发展分析](/mdx-staking)
