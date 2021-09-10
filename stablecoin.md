@@ -8,7 +8,7 @@
 
  usd 价格大于1usdt时，矿工可以使用 1usdttoken通过合约兑换获得 1 usd ， usd  价格小于 1usdt 时，矿工可以使用 1 usd  向合约购买价值 1usdt 的 token。矿工在通过token购买 usd 的时候，会先检查用户在合约内token的余额，不足就补充。矿工使用 usd 购买token的时候，token 先存储到合约内的余额，矿工需要的时候可以提现到自己的钱包，或者用于下次套利。
 
-单次铸币不能超过 usd ->usdt流动池的1%，token->usdt价格使用过去5分钟时间加权平均价格(TWAP)，防御闪电贷攻击。
+单次铸币不能超过 token->usdt流动池的1%，token->usdt价格使用过去5分钟时间加权平均价格(TWAP)，防御闪电贷攻击。
 
 铸币和赎回，使用流动池的 getAmountOut 方法，单次大量会收到流动性限制，避免攻击。
 
